@@ -1,0 +1,155 @@
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Facebook.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\FB.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebSnip.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebSnip.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
