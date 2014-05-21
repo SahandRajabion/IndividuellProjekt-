@@ -1,0 +1,638 @@
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\Facebook.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\FB.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+C:\Users\sr222hn.LNU\Desktop\WebApplication2\WebApplication2\bin\WebSnip.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+K:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebSnip.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Facebook.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\FB.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\WebSnip.dll
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\sr222hn\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebGrease.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.pdb
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\EntityFramework.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+K:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebGrease.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\EntityFramework.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebGrease.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebSnip.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebGrease.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\EntityFramework.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Facebook.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\FB.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Sahand\Desktop\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\ASPSnippets.FaceBookAPI.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Facebook.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\FB.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebGrease.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebSnip.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Facebook.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\FB.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebGrease.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Facebook.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\FB.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\EntityFramework.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+F:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebGrease.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Facebook.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\FB.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\EntityFramework.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+L:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\WebGrease.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Facebook.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\FB.pdb
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\EntityFramework.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+D:\UPLOAD.COM sr222hn NYA-VideoDAL Coockies STYLING video\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\WebApplication2.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.MSAjax.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.ScriptManager.WebForms.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\System.Web.Providers.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\WebGrease.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Facebook.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\FB.pdb
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\HtmlAgilityPack.pdb
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\HtmlAgilityPack.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\EntityFramework.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.Core.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OAuth.Consumer.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\DotNetOpenAuth.AspNet.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\bin\Microsoft.AspNet.FriendlyUrls.xml
+L:\undergroundtalent.com\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+L:\undergroundtalent.com\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+L:\undergroundtalent.com\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

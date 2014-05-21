@@ -1,0 +1,260 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication2.SiteMaster" ViewStateMode="Disabled" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Upload Your Videos WorldWide!</title>
+    <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+    <webopt:BundleReference runat="server" Path="~/css/css" /> 
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  
+</head>
+<body>
+  <div id ="container2">
+    <form runat="server">
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+            <%--Framework Scripts--%>
+            
+            <asp:ScriptReference Name="MsAjaxBundle" />
+            <asp:ScriptReference Name="jquery" />
+            <asp:ScriptReference Name="jquery.ui.combined" />
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Name="WebFormsBundle" />
+            <%--Site Scripts--%>
+
+        </Scripts>
+    </asp:ScriptManager>
+    <header>
+        
+      
+
+      <%--  Inloggning knappar och information om inloggad användare--%>>
+		<div class ="fblogg">
+         <div id="fb-root"></div>
+            <asp:ImageButton ID="btnLogin" runat="server" ImageUrl="Content/pics/Log in.png" OnClick="Login"/>
+            <asp:Panel ID="pnlFaceBookUser" runat="server" Visible="false">
+
+                <table>
+                    <tr>
+                        <td>
+                            <asp:Image ID="ProfileImage" runat="server" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Välkommen:
+                            <asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <asp:ImageButton ID="btnLogout" runat="server" ImageUrl="Content/pics/facebook-logout.gif" OnClick="Logout" Height="30px" Width="80px" />
+                        </td>
+                    </tr>
+                </table>
+            </asp:Panel>
+
+        
+  </div>
+ 
+      
+
+
+			<ul id="sdt_menu" class="sdt_menu">
+				<li>
+					    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>">
+						<img src="../css/images1/2.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Hem</span>
+							<span class="sdt_descr">Startsida</span>
+						</span>
+					</asp:HyperLink>
+				</li>
+				<li>
+					<a href="#">
+						<img src="../css/images1/1.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Kategorier</span>
+							<span class="sdt_descr">Välj kategori</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="<%$ RouteUrl:routename=musik %>">Musik</asp:HyperLink>
+						 <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="<%$ RouteUrl:routename=dans %>">Dans</asp:HyperLink>
+                         <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="<%$ RouteUrl:routename=talang %>">Talang</asp:HyperLink>
+                         <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="<%$ RouteUrl:routename=beatbox %>">Beatbox</asp:HyperLink>
+                         <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="<%$ RouteUrl:routename=ovrigt %>">Övrigt</asp:HyperLink>
+							
+					</div>
+				</li>
+				<li>
+					   <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="<%$ RouteUrl:routename=contact %>">
+						<img src="../css/images1/3.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link"> Kontakt</span>
+							<span class="sdt_descr">Information</span>
+						</span>
+					</asp:HyperLink>
+                    <div class="sdt_box">
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="<%$ RouteUrl:routename=about %>">Om Oss</asp:HyperLink>	   
+						<asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="<%$ RouteUrl:routename=contact %>">Kontakt</asp:HyperLink>
+							
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="../css/images1/4.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Populärast</span>
+							<span class="sdt_descr">Top 10</span>
+						</span>
+					</a>
+				</li>
+				<li>
+                    
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="<%$ RouteUrl:routename=upload %>">
+						<img src="../css/images1/5.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Ladda upp</span>
+							<span class="sdt_descr">Mina Videoklipp</span>
+						</span>
+                        
+					</asp:HyperLink>
+                    <div class="sdt_box">
+                      
+					<asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="<%$ RouteUrl:routename=upload %>">Ladda Upp</asp:HyperLink>
+							
+					</div>
+				</li>
+				
+					
+			</ul>
+      
+          
+
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                /**
+				* for each menu element, on mouseenter, 
+				* we enlarge the image, and show both sdt_active span and 
+				* sdt_wrap span. If the element has a sub menu (sdt_box),
+				* then we slide it - if the element is the last one in the menu
+				* we slide it to the left, otherwise to the right
+				*/
+                $('#sdt_menu > li').bind('mouseenter', function () {
+                    var $elem = $(this);
+                    $elem.find('img')
+						 .stop(true)
+						 .animate({
+						     'width': '170px',
+						     'height': '170px',
+						     'left': '0px'
+						 }, 400, 'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_wrap')
+					     .stop(true)
+						 .animate({ 'top': '140px' }, 500, 'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_active')
+					     .stop(true)
+						 .animate({ 'height': '170px' }, 300, function () {
+						     var $sub_menu = $elem.find('.sdt_box');
+						     if ($sub_menu.length) {
+						         var left = '170px';
+						         if ($elem.parent().children().length == $elem.index() + 1)
+						             left = '-170px';
+						         $sub_menu.show().animate({ 'left': left }, 200);
+						     }
+						 });
+                }).bind('mouseleave', function () {
+                    var $elem = $(this);
+                    var $sub_menu = $elem.find('.sdt_box');
+                    if ($sub_menu.length)
+                        $sub_menu.hide().css('left', '0px');
+
+                    $elem.find('.sdt_active')
+						 .stop(true)
+						 .animate({ 'height': '0px' }, 300)
+						 .andSelf().find('img')
+						 .stop(true)
+						 .animate({
+						     'width': '0px',
+						     'height': '0px',
+						     'left': '85px'
+						 }, 400)
+						 .andSelf()
+						 .find('.sdt_wrap')
+						 .stop(true)
+						 .animate({ 'top': '25px' }, 500);
+                });
+            });
+        </script>
+
+
+    </header>
+
+        <%-- Innehåll --%>
+    <div class="container1">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+         </div>
+    
+        <hr />
+    <footer>
+             
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            </div>
+        </div>
+      
+
+
+
+        <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+      <div class="fb-like" data-href="https://www.facebook.com/pages//646540078759230?skip_nax_wizard=true" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+        
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1&appId=586484814797975";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    </footer>
+       
+    </form>
+      </div>
+</body>
+</html>
+
