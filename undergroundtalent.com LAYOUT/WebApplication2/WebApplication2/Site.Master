@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication2.SiteMaster" ViewStateMode="Disabled" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Upload Your Videos WorldWide!</title>
+    <asp:PlaceHolder runat="server">     
+          <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>  
+    <webopt:BundleReference runat="server" Path="~/css/css" /> 
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  
+      
+</head>
+<body onkeydown = "return (event.keyCode!=13)">
+    <div id="wrapper">
+    <form runat="server">
+
+
+        <div id="header">
+          
+               <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>" ImageUrl="css/images1/logophotoshop1.png"></asp:HyperLink>
+              
+          
+                
+
+            
+             <%--  Inloggning knappar och information om inloggad användare--%>
+      <div class ="fblogg">
+         <div id="fb-root"></div>
+            <asp:ImageButton ID="btnLogin" runat="server" ImageUrl="Content/pics/loggain.png" OnClick="Login"/>
+            <asp:Panel ID="pnlFaceBookUser" runat="server" Visible="false">
+
+                <table>
+                    <tr>
+                        <td>
+                            
+                            <asp:Image ID="ProfileImage" runat="server" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><asp:Label ID="Label1" runat="server" Text="Välkommen:"></asp:Label>
+                            <asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:ImageButton ID="btnLogout" runat="server" ImageUrl="Content/pics/loggaut.png" OnClick="Logout" CausesValidation="false"  />
+                        </td>
+                    </tr>
+                </table>
+            </asp:Panel>
+
+     
+		</div>
+        </div>
+           
+
+  <div id="navigation"> 
+  
+      <div id='cssmenu'>
+<ul>
+   <li class='active'><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>"><span>Hem</span></asp:HyperLink></li>
+   <li class='has-sub'><a href='#'><span>Kategorier</span></a>
+      <ul>
+         <li> <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="<%$ RouteUrl:routename=musik %>">Musik</asp:HyperLink></li>
+         <li> <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="<%$ RouteUrl:routename=dans %>">Dans</asp:HyperLink></li>
+         <li><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="<%$ RouteUrl:routename=talang %>">Talang</asp:HyperLink></li>
+         <li><asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="<%$ RouteUrl:routename=beatbox %>">Beatbox</asp:HyperLink></li>
+         <li class='last'><asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="<%$ RouteUrl:routename=ovrigt %>">Övrigt</asp:HyperLink></li>
+      </ul>
+   </li>
+   <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="<%$ RouteUrl:routename=about %>">Om Oss</asp:HyperLink>	</li>
+   <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="<%$ RouteUrl:routename=contact %>">Kontakt</asp:HyperLink></li>
+   <li class='has-sub last'><a href='#'><span>Ladda upp</span></a>
+      <ul>
+         <li class='last'><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="<%$ RouteUrl:routename=upload %>">Ladda Upp</asp:HyperLink></li>
+      </ul>
+   </li>
+</ul>
+</div>
+       </div>
+	<%--		
+           <div id="loading">
+  <img id="loading-image" src="css/images1/Loading.gif" alt="Loading..." />
+</div>
+      
+        <script language="javascript" type="text/javascript">
+            $(window).load(function () {
+                $('#loading').hide();
+            });
+</script>--%>
+
+  <div id="content"> 
+
+      
+        
+  
+      
+        <%-- Innehåll --%>
+    
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+         
+
+  </div>
+
+
+  <div id="footer"> 
+      <div id="textfooter">
+      <p>&copy; <%: DateTime.Now.Year %> - undergroundtalent.com</p></div>
+
+      <div id="likefooter">
+      <div class="fb-like" data-href="https://www.facebook.com/localhost:3116/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          </div>
+  </div>
+   
+
+    
+        <hr />
+    
+      
+
+
+
+        <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+        
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1&appId=586484814797975";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+       
+    </form>
+      </div>
+   
+</body>
+</html>
+
