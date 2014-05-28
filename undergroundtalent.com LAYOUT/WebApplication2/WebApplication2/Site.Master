@@ -17,6 +17,7 @@
   
       
 </head>
+    <%--onkeydown taget från aspsnippet--%>
 <body onkeydown = "return (event.keyCode!=13)">
     <div id="wrapper">
     <form runat="server">
@@ -29,8 +30,8 @@
           
                 
 
-            
-             <%--  Inloggning knappar och information om inloggad användare--%>
+     <%-- Taget (Delvis)från facebookDeveloper--%>
+     <%--  Inloggning knappar och information om inloggad användare--%>
       <div class ="fblogg">
          <div id="fb-root"></div>
             <asp:ImageButton ID="btnLogin" runat="server" ImageUrl="Content/pics/loggain.png" OnClick="Login"/>
@@ -63,6 +64,7 @@
 
   <div id="navigation"> 
   
+      <%-- Meny hämtat från CssMenyMaker--%>
       <div id='cssmenu'>
 <ul>
    <li class='active'><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>"><span>Hem</span></asp:HyperLink></li>
@@ -85,25 +87,13 @@
 </ul>
 </div>
        </div>
-	<%--		
-           <div id="loading">
-  <img id="loading-image" src="css/images1/Loading.gif" alt="Loading..." />
-</div>
-      
-        <script language="javascript" type="text/javascript">
-            $(window).load(function () {
-                $('#loading').hide();
-            });
-</script>--%>
+			
+
+       
 
   <div id="content"> 
-
-      
-        
-  
       
         <%-- Innehåll --%>
-    
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
         <section class="content-wrapper main-content clear-fix">
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
@@ -114,40 +104,83 @@
 
 
   <div id="footer"> 
-      <div id="textfooter">
+  <%--    <div id="textfooter">--%>
       <p>&copy; <%: DateTime.Now.Year %> - undergroundtalent.com</p></div>
 
       <div id="likefooter">
       <div class="fb-like" data-href="https://www.facebook.com/localhost:3116/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-          </div>
+        <%--  </div>--%>
   </div>
    
 
     
-        <hr />
+        
     
       
 
 
-
-        <script>(function (d, s, id) {
+     <%-- Taget från facebookDeveloper--%>
+    <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-        
-<script>(function (d, s, id) {
+     <%-- Taget från facebookDeveloper--%>
+    <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "//connect.facebook.net/sv_SE/all.js#xfbml=1&appId=586484814797975";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));</script>
     
        
+        
+        <%--Script för loading bar vid synk av uploadfunktion, vid click händelse(Taget av AspSnippet och anpasad efter eget bruk)--%>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    function ShowProgress() {
+        setTimeout(function () {
+            var modal = $('<div />');
+            modal.addClass("modal");
+            $('body').append(modal);
+            var loading = $(".loading");
+            loading.show();
+            var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+            var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+            loading.css({ top: top, left: left });
+        }, 200);
+    }
+
+    <%--Lagt till själv för endast klick på Upload-knappen och ej vid alla submits--%>
+    $('#MainContent_UploadButton').live("click", function () {
+        if(Page_IsValid)
+        {
+        ShowProgress();
+    }
+    });
+
+     <%--Lagt till själv för endast klick på Delete-knappen och ej vid alla submits--%>
+    $('#MainContent_DeleteButton').live("click", function () {
+        if (Page_IsValid) {
+            ShowProgress();
+        }
+    });
+</script>
+
+
+        <%--Taget från https://coderwall.com/p/u3z_kq för att ta bort ändelsen i urlen--%>
+        <script>
+        if (window.location.hash == '#_=_') {
+    window.location.hash = ''; // for older browsers, leaves a # behind
+    history.pushState('', document.title, window.location.pathname); // nice and clean
+    e.preventDefault(); // no page reload
+        }</script>
+
+
     </form>
       </div>
    

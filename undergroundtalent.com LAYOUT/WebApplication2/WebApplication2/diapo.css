@@ -1,3 +1,8 @@
+
+
+
+
+
 .pix_diapo {
 	background: #000;
 	-moz-box-shadow: 0 3px 6px #000;
@@ -10,10 +15,10 @@
 	width: 940px;
 }
 .pix_diapo > div {
-	display: none;
+	
 	height: 100%;
 	left: 0;
-	position: absolute;
+	
 	top: 0;
 	width: 100%;
 }

@@ -21,11 +21,11 @@
                     </table>
                        <div id="clear" style="clear: both;" >
                         <%--Datapager för Paging av innehåll på sidan--%>
-                        <asp:DataPager ID="DataPager" runat="server" PageSize="8">
+                        <asp:DataPager ID="DataPager" runat="server" PageSize="9">
                         <Fields>
-                            <asp:NextPreviousPagerField ShowFirstPageButton="True" FirstPageText=" Första " ShowNextPageButton="False" ShowPreviousPageButton="False" ButtonType="Button" />
+                            <asp:NextPreviousPagerField ShowFirstPageButton="False" FirstPageText=" Första " ShowNextPageButton="False" ShowPreviousPageButton="True" ButtonType="Button"  PreviousPageText="Föregående"/>
                             <asp:NumericPagerField ButtonType="Link" />
-                            <asp:NextPreviousPagerField ShowLastPageButton="True" LastPageText=" Sista " ShowNextPageButton="False" ShowPreviousPageButton="False" ButtonType="Button" />
+                            <asp:NextPreviousPagerField ShowLastPageButton="false" LastPageText=" Sista " ShowNextPageButton="True" ShowPreviousPageButton="False" ButtonType="Button"  NextPageText="Nästa"/>
                         </Fields>
                     </asp:DataPager>
                 </LayoutTemplate>
@@ -69,7 +69,7 @@
 
 
 
-        
+    <%--Taget från http://flash.flowplayer.org/plugins/streaming/pseudostreaming.html--%>    
     <%--Script för mediaspelaren--%>
     <script src="../FlowPlayer/flowplayer-3.2.12.min.js" type="text/javascript"></script>
     <script type="text/javascript">

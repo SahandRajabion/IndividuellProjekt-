@@ -22,7 +22,7 @@
    </div>
     
      <div id="all">
-         
+   
           <%--Funktions knappar--%>
          
       <asp:FileUpload ID="Uploadfiles" runat="server" /><br />
@@ -41,7 +41,12 @@
                     DataTextField="Kategori"
                     DataValueField="KategoriID"/>  
                    <div style="clear: both;" /> 
-    <asp:Button ID="UploadButton" Text="Ladda upp" runat="server" onclick="buttonUpload_Click" /> </div>
+
+
+      
+
+
+   <asp:Button ID="UploadButton" Text="Ladda upp" runat="server" onclick="buttonUpload_Click" /> 
 
     <asp:Label ID="Label5" runat="server" >
     <div id="border"> 
@@ -61,8 +66,12 @@
     <div id="success">
     <asp:Label ID="Success" text="" runat="server" Visible="false" CssClass="success"/></div>
     
-
-
+   <%--Infogning av loading bild för upload--%>
+  <div class="loading" align="center">
+   Laddar. Vänligen vänta.<br />
+    <br />
+    <img src="../css/images1/Loading.gif" id="loading" />
+</div>
 
     
     
@@ -93,12 +102,12 @@
                     </table>
                  <div id="clear" style="clear: both;" >
                           <%--Datapager för Paging av innehåll på sidan--%>
-                    <asp:DataPager ID="DataPager" runat="server" PageSize="8">
+                    <asp:DataPager ID="DataPager" runat="server" PageSize="9">
                         <Fields>
                             
-                            <asp:NextPreviousPagerField ShowFirstPageButton="True" FirstPageText=" Första " ShowNextPageButton="False" ShowPreviousPageButton="False" ButtonType="Button" />
+                          <asp:NextPreviousPagerField ShowFirstPageButton="False" FirstPageText=" Första " ShowNextPageButton="False" ShowPreviousPageButton="True" ButtonType="Button"  PreviousPageText="Föregående"/>
                             <asp:NumericPagerField ButtonType="Link" />
-                            <asp:NextPreviousPagerField ShowLastPageButton="True" LastPageText=" Sista " ShowNextPageButton="False" ShowPreviousPageButton="False" ButtonType="Button" />
+                            <asp:NextPreviousPagerField ShowLastPageButton="false" LastPageText=" Sista " ShowNextPageButton="True" ShowPreviousPageButton="False" ButtonType="Button"  NextPageText="Nästa"/>
                         </Fields>
                     </asp:DataPager>
                 </LayoutTemplate>
@@ -134,6 +143,7 @@
             </asp:ListView>
  
 
+    <%--Taget från http://flash.flowplayer.org/plugins/streaming/pseudostreaming.html--%>
      <%--Script för mediaspelaren--%>
      <script src="../../FlowPlayer/flowplayer-3.2.12.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -171,6 +181,8 @@
           });
 
     </script>
+
+
 </asp:Content>
 
 

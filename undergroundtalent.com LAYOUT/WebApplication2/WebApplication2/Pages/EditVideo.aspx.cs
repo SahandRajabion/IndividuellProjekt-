@@ -16,6 +16,18 @@ namespace WebApplication2.Pages
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
+            if (Code == null) {
+
+                VideoEditFormView.Visible = false;
+            
+            
+            }
+
+
+
+
+
         }
 
         private Service _service;
@@ -110,16 +122,15 @@ namespace WebApplication2.Pages
             var MyAdmin = AdminUser.Admin;
 
             //Hämtar User info. 
-            string info = FaceBookConnect.Fetch(Code, "me");
-            UserInfo fbUSER = new JavaScriptSerializer().Deserialize<UserInfo>(info);
+            var cacheinfo = ExtencionCashe.CasheInfo(Code);
 
-            if (fbUSER.Id == MyAdmin)
+            if (cacheinfo.Id == MyAdmin)
             {
                 return data;
             
             }
 
-            if (fbUSER.Id != data.UserID)
+            if (cacheinfo.Id != data.UserID)
             {
                 return null;
             }

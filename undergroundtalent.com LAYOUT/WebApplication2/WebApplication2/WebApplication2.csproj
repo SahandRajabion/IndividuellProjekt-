@@ -295,7 +295,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="css\stylse.css" />
+    <Content Include="css\stylse1.css" />
     <Content Include="Upload.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -326,6 +326,7 @@
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Extencion\ExtencionCashe.cs" />
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -363,9 +364,7 @@
     <Compile Include="Model\DAL\CategoryDAL.cs" />
     <Compile Include="Model\DAL\DALBase.cs" />
     <Compile Include="Model\DAL\FBDAL.cs" />
-    <Compile Include="Model\DAL\RatingDAL.cs" />
     <Compile Include="Model\DAL\VideoDAL.cs" />
-    <Compile Include="Model\Ratings.cs" />
     <Compile Include="Model\Service.cs" />
     <Compile Include="Model\UserInfo.cs" />
     <Compile Include="Model\Video.cs" />

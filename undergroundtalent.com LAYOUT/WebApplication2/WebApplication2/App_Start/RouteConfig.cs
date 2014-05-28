@@ -22,6 +22,7 @@ namespace WebApplication2
             routes.MapPageRoute("about", "omoss", "~/Pages/About.aspx");
             routes.MapPageRoute("contact", "kontakt", "~/Pages/Contact.aspx");
             routes.MapPageRoute("startsida", "", "~/Default.aspx");
+           
 
             
         }

@@ -14,6 +14,8 @@ using Facebook;
 using Facebook.Reflection;
 using FB;
 using WebApplication2.Model;
+using System.Reflection;
+using System.Collections.Specialized;
 
 
 
@@ -22,6 +24,8 @@ namespace WebApplication2
 {
     public partial class SiteMaster : MasterPage
     {
+
+
 
         private Service _service;
 
@@ -45,27 +49,58 @@ namespace WebApplication2
 
 
         /// <summary>
-        /// Sparar accestoken i cookies / åtkomst från alla sidor
+        /// Sparar accestoken i Session / åtkomst från alla sidor
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// 
+
         private void Page_Init(object sender, EventArgs e)
         {
 
-         
+         // Om access token = null, requestar efter den och lagrar i session.
             if (code == null)
             {
-                code = Request.QueryString["code"];
 
-                Page.ViewStateUserKey = code;
+                code = Request.QueryString["code"];
+                //Sparar accesstoken i Session (by default 20min).
+                HttpContext.Current.Session["code"] = code;
+
+
+
+                //Efter att användaren loggat in och access token hämtats utför följande (url visas nu utan access-token):
+                if (code != null)
+                {
+                    // Taget från StackOverflow.
+                    // Delar upp Urlen, och tar bort access token från urlen(krashar annars när man backar med historik knappen i webbläsaren då access token inte 
+                    //längre är i bruk och systemet försöker fetcha om igen som finns kvar i urlen.)
+                    string url = HttpContext.Current.Request.Url.AbsoluteUri;
+                    string[] separateURL = url.Split('?');
+                    NameValueCollection queryString = System.Web.HttpUtility.ParseQueryString(separateURL[1]);
+                    queryString.Remove("code");
+                    url = separateURL[0] + queryString.ToString();
+                    Response.Redirect(url);
+                
+
+
+                }
+                
+             
+
+                //Nedanstående äldre version som jag testat innan som fungerar, men sparar "code" i Viewstate.
+                //Page.ViewStateUserKey = code;
 
 
 
             }
 
+             //I annat fall hämtar direkt från session och anropas sedan nedanstående metod.
             else
-            {
-                Page.ViewStateUserKey = code;
+            {   //Sparar accesstoken i Session (by default 20min), finns access token i session kvar inom 20min om användaren kommer tillbaka hämtas den här.
+                HttpContext.Current.Session["code"] = code;
+
+                //Nedanstående äldre version som jag testat innan som fungerar, men sparar "code" i Viewstate.
+                //Page.ViewStateUserKey = code;
             }
 
             Page.PreLoad += master_Page_PreLoad;
@@ -75,10 +110,14 @@ namespace WebApplication2
 
 
         /// <summary>
-        /// Ser till att användaren är inloggad och  hämtar sedan info om användaren.
+        /// Ser till att användaren är inloggad och  hämtar sedan info om användaren. Förstagångs användare lagras i databas.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        /// 
+
+        //Tagit delvis kod från ASPsnippet och facebook Developer och redigerat koden utefter min applikation och den info som jag 
+        //vill komma åt om användaren via facebook och sedan Cashat den själv och även sparat accesstoken i session.
         protected void master_Page_PreLoad(object sender, EventArgs e)
         {
 
@@ -87,25 +126,27 @@ namespace WebApplication2
                 
                     if (Request.QueryString["logout"] == "true")
                     {
+                        //Rensar chasheinfo från Casheminnet vid utloggning av användare.
+                        HttpContext.Current.Cache.Remove("fbData");
                         code = null;
-                        return;
+                        
+                        return;   
                     }
 
-                    if (Request.QueryString["error"] == "access_denied")
-                    {
-                        Page.ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('User has denied access.')", true);
-                        return;
-                    }
+                    
 
-
+            
+                    //Ifall access token finns tilgängligt(aktivt): hämta in data om user via facebook.
                     if (!string.IsNullOrEmpty(code))
                     {
-                        string info = FaceBookConnect.Fetch(code, "me");
-                        FaceBookUser fbUSER = new JavaScriptSerializer().Deserialize<FaceBookUser>(info);
+                        //Anropar ChacheInfo metoden och inhämtat userdata från Chache minnet för vidare användning i Extencion klassen.
+                        var fbUSER = ExtencionCashe.CasheInfo(code);
                         fbUSER.PictureUrl = string.Format("https://graph.facebook.com/{0}/picture", fbUSER.Id);
                         pnlFaceBookUser.Visible = true;
                         lblName.Text = fbUSER.Name;
                         ProfileImage.ImageUrl = fbUSER.PictureUrl;
+
+                        // Förändring av log in knappar i olika lägen (ut-inloggad).
                         if (code == null)
                         {
                             btnLogin.Visible = true;
@@ -117,7 +158,7 @@ namespace WebApplication2
 
 
                      
-
+                        //Ifall förstagångs användare: Lagra data.
                         var returnedid = Service.getuserdata(fbUSER.Id);
 
                         if (returnedid != fbUSER.Id)
@@ -140,7 +181,7 @@ namespace WebApplication2
 
 
         /// <summary>
-        /// Metod för inloggning via Facebook
+        /// Metod för inloggning via Facebook, hämtar specifik data som användaren först måste acceptera åtkomst av tredje part.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -152,20 +193,25 @@ namespace WebApplication2
 
 
         /// <summary>
-        /// Metod gör utloggning av Facebook
+        /// Metod för utloggning av Facebook.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         protected void Logout(object sender, EventArgs e)
         {
-            FaceBookConnect.Logout(Request.QueryString["code"]);
+            code = null;
+           
+            FaceBookConnect.Logout(code);
+
+        
+           
           
-      
-            //redirect to login page
-            Response.Redirect("Site.Master");
+            
+           
         }
 
 
+        
 
 
     }

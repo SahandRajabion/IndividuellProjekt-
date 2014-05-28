@@ -46,7 +46,11 @@
            </EditItemTemplate>
                
             </asp:FormView>
-        <script src="../../../FlowPlayer/flowplayer-3.2.12.min.js" type="text/javascript"></script>
+       
+    
+      <%--Taget från http://flash.flowplayer.org/plugins/streaming/pseudostreaming.html--%>
+      <%--Script för mediaspelaren--%>
+     <script src="../../../FlowPlayer/flowplayer-3.2.12.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         flowplayer("a.player", "../../../FlowPlayer/flowplayer-3.2.16.swf", {
             plugins: {

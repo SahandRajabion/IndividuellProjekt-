@@ -150,7 +150,9 @@ namespace WebApplication2
                                     string file = Uploadfiles.FileName;
                                     if (Exists(file))
                                     {
-
+                                        // För Loading bar. Hämtar scriptet från sitemaster vid klick på upload knappen och fortsätter igenom koden.
+                                        string script = "$(document).ready(function () { $('[id*=MainContent_UploadButton]').click(); });";
+                                        ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
 
                                         string extension = Path.GetExtension(file);
                                         string nameOnly = Path.GetFileNameWithoutExtension(Uploadfiles.FileName);
@@ -203,7 +205,7 @@ namespace WebApplication2
 
                             else
                             {
-                                LabelStatus.Text = "Filen måste vara av typen avi, mp4, wmv eller mpeg.";
+                                LabelStatus.Text = "Filen måste vara av typen mp4.";
                                 LabelStatus.CssClass = "fail";
                             }
                         }
@@ -252,9 +254,16 @@ namespace WebApplication2
 
                 if (check.Checked)
                 {
+                    // För Loading bar. Hämtar scriptet från sitemaster vid klick på delete knappen och fortsätter igenom koden.
+                    string script = "$(document).ready(function () { $('[id*=MainContent_DeleteButton]').click(); });";
+                    ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
+
                     string fromVideoToExtension = check.Attributes["special"];
                     string correctName = fromVideoToExtension.Replace("Videos//", "");
-                    string RootToHome = Path.Combine(AppDomain.CurrentDomain.GetData("APPBASE").ToString());
+                    string RootToHome = Path.Combine(
+                 AppDomain.CurrentDomain.GetData("APPBASE").ToString(),
+                 "Videos/"
+                 );
                     string fileDelete = Path.Combine(RootToHome, fromVideoToExtension);
                     File.Delete(fileDelete);
                     Service.DeleteVideoName(correctName);
@@ -263,6 +272,8 @@ namespace WebApplication2
                     delOccurs = true;
                 }
             }
+
+         
 
             if (delOccurs)
             {
@@ -288,22 +299,24 @@ namespace WebApplication2
         /// <returns> Paging info samt retunerar allt (IF Admin) eller användarens personliga videoklipp</returns>
         public IEnumerable<WebApplication2.Model.Video> VideoListView_GetData(int maximumRows, int startRowIndex, out int totalRowCount)
         {
-            string info = FaceBookConnect.Fetch(Code, "me");
-            UserInfo fbUSER = new JavaScriptSerializer().Deserialize<UserInfo>(info);
+
+            var cacheinfo = ExtencionCashe.CasheInfo(Code);
+          
+          
 
 
             Global AdminUser = new Global();
             var MyAdmin = AdminUser.Admin;
 
 
-            if (fbUSER.Id == MyAdmin)
+            if (cacheinfo.Id == MyAdmin)
             {
                 return Service.GetVideosPageWise(maximumRows, startRowIndex, out totalRowCount);
             }
 
 
 
-            return Service.GetMyVideosPageWiseByID(maximumRows, startRowIndex, out totalRowCount, fbUSER.Id); ;
+            return Service.GetMyVideosPageWiseByID(maximumRows, startRowIndex, out totalRowCount, cacheinfo.Id); ;
         }
 
 
