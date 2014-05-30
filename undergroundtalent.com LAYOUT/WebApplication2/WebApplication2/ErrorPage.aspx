@@ -12,15 +12,19 @@
     <link href ="~/Content/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div id="allerrorcontent">
-    <h1>System Fel</h1>
+    
+   
+        <div id ="titleerror">
+         <h1>System Fel</h1>
+            </div>
      <asp:image id="img" runat="server" imageurl="css/images1/error.jpg" />
+    <div id="allerrorcontent">
     <p>Vi Beklagar att ett fel inträffade och inte kunde hantera din förfrågan försök gärna igen.<br /> Skulle det inte fungera, försök igen vid senare tidpunkt. </p>
-
+        </div>
         <div id="tillbaka">
     <a href="Default.aspx">Tillbaka Till Förstasidan</a>
         </div>
-        </div>
+        
 
 </body>
 </html>

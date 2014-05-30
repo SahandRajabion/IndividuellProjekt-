@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - Upload Your Videos WorldWide!</title>
+    <title><%: Page.Title %> - Ladda up dina videor och sprid över hela Sverige!</title>
     <asp:PlaceHolder runat="server">     
           <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>  
@@ -25,9 +25,9 @@
 
         <div id="header">
           
-               <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>" ImageUrl="css/images1/logophotoshop1.png"></asp:HyperLink>
-              
-          
+               <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="<%$ RouteUrl:routename=startsida %>" ImageUrl="css/images1/PhotoshopLOGO.png"></asp:HyperLink>
+             
+       
                 
 
      <%-- Taget (Delvis)från facebookDeveloper--%>

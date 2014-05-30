@@ -147,6 +147,7 @@
     <Content Include="Content\pics\loggain.png" />
     <Content Include="Content\pics\loggaut.png" />
     <Content Include="css\images1\112.jpg" />
+    <Content Include="css\images1\140140678294137 %281%29.gif" />
     <Content Include="css\images1\aaa.png" />
     <Content Include="css\images1\backgroun.png" />
     <Content Include="css\images1\bb.jpg" />
@@ -161,6 +162,7 @@
     <Content Include="css\images1\Chicago-Black-and-White-Wallpaper-HD.jpg" />
     <Content Include="css\images1\email.png" />
     <Content Include="css\images1\error.jpg" />
+    <Content Include="css\images1\ezgif-save.gif" />
     <Content Include="css\images1\ff.jpg" />
     <Content Include="css\images1\fff.jpg" />
     <Content Include="css\images1\footer.png" />
@@ -188,6 +190,7 @@
     <Content Include="css\images1\photoshopbackground.jpg" />
     <Content Include="css\images1\photoshopbackground.png" />
     <Content Include="css\images1\photoshopbackground1.png" />
+    <Content Include="css\images1\PhotoshopLOGO.png" />
     <Content Include="css\images1\pianook.jpg" />
     <Content Include="css\images1\pianophotoshop.png" />
     <Content Include="css\images1\piano_00411389.jpg" />
@@ -326,7 +329,7 @@
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Extencion\ExtencionCashe.cs" />
+    <Compile Include="Extencion\ExtencionDataGet.cs" />
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

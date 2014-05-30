@@ -60,7 +60,8 @@ namespace WebApplication2.Pages
             ListViewDataItem item = (ListViewDataItem)(sender as Control).NamingContainer;
             Label lblStatus = (Label)item.FindControl("Label1");
             lblStatus.Visible = true;
-
+           
+            
         }
 
         protected void ImageButton1_Command(object sender, CommandEventArgs e)
@@ -70,7 +71,8 @@ namespace WebApplication2.Pages
             ListViewDataItem item = (ListViewDataItem)(sender as Control).NamingContainer;
             Label lblStatus = (Label)item.FindControl("Label1");
             lblStatus.Visible = false;
-
+          
+           
         }
 
 

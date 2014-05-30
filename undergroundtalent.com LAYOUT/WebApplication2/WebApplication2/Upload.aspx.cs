@@ -109,7 +109,9 @@ namespace WebApplication2
                 infoupload.Visible = false;
                 Label3.Visible = false;
                 Label5.Visible = false;
+                Uploadbox.Visible = false;
                 StatusLogin.CssClass = "fail";
+               
             }
 
 
@@ -122,116 +124,122 @@ namespace WebApplication2
         /// <param name="e"></param>
         protected void buttonUpload_Click(object sender, EventArgs e)
         {
-            if (IsValid)
+            if (Code != null)
             {
-                if (Titel.Text != string.Empty)
+                if (IsValid)
                 {
 
-                    int VidNameChars = Convert.ToInt32(Uploadfiles.FileName.Length);
-                    if (Uploadfiles.HasFile)
+
+                    if (Titel.Text != string.Empty)
                     {
-                        if (VidNameChars <= 128)
+
+                        int VidNameChars = Convert.ToInt32(Uploadfiles.FileName.Length);
+                        if (Uploadfiles.HasFile)
                         {
-
-                            if
-
-                            ((Uploadfiles.PostedFile.ContentType == "video/avi") ||
-                                 (Uploadfiles.PostedFile.ContentType == "video/mp4") ||
-                                (Uploadfiles.PostedFile.ContentType == "video/wmv") ||
-                                 (Uploadfiles.PostedFile.ContentType == "video/MOV") ||
-                                 (Uploadfiles.PostedFile.ContentType == "video/mpeg"))
+                            if (VidNameChars <= 128)
                             {
-                                if (Convert.ToInt64(Uploadfiles.PostedFile.ContentLength) < 26214400)
+
+                                if
+
+                                ((Uploadfiles.PostedFile.ContentType == "video/avi") ||
+                                     (Uploadfiles.PostedFile.ContentType == "video/mp4") ||
+                                    (Uploadfiles.PostedFile.ContentType == "video/wmv") ||
+                                     (Uploadfiles.PostedFile.ContentType == "video/MOV") ||
+                                     (Uploadfiles.PostedFile.ContentType == "video/mpeg"))
                                 {
-                                    string vidFolder = Path.Combine(videoRoot, User.Identity.Name);
-                                    int count = 1;
-
-
-                                    string file = Uploadfiles.FileName;
-                                    if (Exists(file))
+                                    if (Convert.ToInt64(Uploadfiles.PostedFile.ContentLength) < 26214400)
                                     {
-                                        // För Loading bar. Hämtar scriptet från sitemaster vid klick på upload knappen och fortsätter igenom koden.
-                                        string script = "$(document).ready(function () { $('[id*=MainContent_UploadButton]').click(); });";
-                                        ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
+                                        string vidFolder = Path.Combine(videoRoot, User.Identity.Name);
+                                        int count = 1;
 
-                                        string extension = Path.GetExtension(file);
-                                        string nameOnly = Path.GetFileNameWithoutExtension(Uploadfiles.FileName);
 
-                                        while (Exists(file))
+                                        string file = Uploadfiles.FileName;
+                                        if (Exists(file))
                                         {
-                                            file = string.Format("{0}({1}){2}", nameOnly, count, extension);
-                                            count++;
+                                            // För Loading bar. Hämtar scriptet från sitemaster vid klick på upload knappen och fortsätter igenom koden.
+                                            string script = "$(document).ready(function () { $('[id*=MainContent_UploadButton]').click(); });";
+                                            ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
+
+                                            string extension = Path.GetExtension(file);
+                                            string nameOnly = Path.GetFileNameWithoutExtension(Uploadfiles.FileName);
+
+                                            while (Exists(file))
+                                            {
+                                                file = string.Format("{0}({1}){2}", nameOnly, count, extension);
+                                                count++;
+
+                                            }
+
 
                                         }
 
-
-                                    }
-
-                                    Uploadfiles.SaveAs(Path.Combine(vidFolder, file));
+                                        Uploadfiles.SaveAs(Path.Combine(vidFolder, file));
 
 
-                                    MSG = "Uppladdningen Lyckades:  " + file;
+                                        MSG = "Uppladdningen Lyckades:  " + file;
 
 
 
-                                    //Hämtar User info för att sedan veta vem som laddat upp vad.
-                                    string info = FaceBookConnect.Fetch(Code, "me");
-                                    UserInfo fbUSER = new JavaScriptSerializer().Deserialize<UserInfo>(info);
+                                        //Hämtar User info för att sedan veta vem som laddat upp vad.
+                                        string info = FaceBookConnect.Fetch(Code, "me");
+                                        UserInfo fbUSER = new JavaScriptSerializer().Deserialize<UserInfo>(info);
 
 
-                                    var categoryID = 0;
+                                        var categoryID = 0;
 
-                                    foreach (ListItem bm in DropDownCategory.Items)
-                                    {
-                                        if (bm.Selected)
+                                        foreach (ListItem bm in DropDownCategory.Items)
                                         {
-                                            categoryID = int.Parse(bm.Value);
+                                            if (bm.Selected)
+                                            {
+                                                categoryID = int.Parse(bm.Value);
 
+                                            }
                                         }
+
+
+                                        Service.InsertVideos(file, fbUSER.Id, categoryID, Titel.Text);
+                                        Response.RedirectToRoute("upload");
+
                                     }
 
 
-                                    Service.InsertVideos(file, fbUSER.Id, categoryID, Titel.Text);
-                                    Response.RedirectToRoute("upload");
-
+                                    else
+                                    {
+                                        LabelStatus.Text = "Filen får inte överstiga 25 MB.";
+                                        LabelStatus.CssClass = "fail";
+                                    }
                                 }
 
                                 else
                                 {
-                                    LabelStatus.Text = "Filen får inte överstiga 25 MB.";
+                                    LabelStatus.Text = "Filen måste vara av typen mp4.";
                                     LabelStatus.CssClass = "fail";
                                 }
                             }
 
                             else
                             {
-                                LabelStatus.Text = "Filen måste vara av typen mp4.";
+                                LabelStatus.Text = "Filnamnet får ej överstiga 124 tecken, försök igen.";
                                 LabelStatus.CssClass = "fail";
                             }
+
                         }
 
                         else
                         {
-                            LabelStatus.Text = "Filnamnet får ej överstiga 124 tecken, försök igen.";
+
+                            LabelStatus.Text = "Ingen fil vald för uppladdning, försök igen.";
                             LabelStatus.CssClass = "fail";
                         }
-
                     }
-
                     else
                     {
-
-                        LabelStatus.Text = "Ingen fil vald för uppladdning, försök igen.";
+                        LabelStatus.Text = "Titel Måste Anges.";
                         LabelStatus.CssClass = "fail";
+
                     }
-                }
-                else
-                {
-                    LabelStatus.Text = "Titel Måste Anges.";
-                    LabelStatus.CssClass = "fail";
 
                 }
-
             }
         }
 
@@ -244,54 +252,55 @@ namespace WebApplication2
         /// <param name="e"></param>
         protected void buttonDelete_Click(object sender, EventArgs e)
         {
-
-
-            bool delOccurs = false;
-
-            foreach (ListViewItem ri in VideoListView.Items)
+            if (Code != null)
             {
-                CheckBox check = ri.FindControl("Delete") as CheckBox;
 
-                if (check.Checked)
+                bool delOccurs = false;
+
+                foreach (ListViewItem ri in VideoListView.Items)
                 {
-                    // För Loading bar. Hämtar scriptet från sitemaster vid klick på delete knappen och fortsätter igenom koden.
-                    string script = "$(document).ready(function () { $('[id*=MainContent_DeleteButton]').click(); });";
-                    ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
+                    CheckBox check = ri.FindControl("Delete") as CheckBox;
 
-                    string fromVideoToExtension = check.Attributes["special"];
-                    string correctName = fromVideoToExtension.Replace("Videos//", "");
-                    string RootToHome = Path.Combine(
-                 AppDomain.CurrentDomain.GetData("APPBASE").ToString(),
-                 "Videos/"
-                 );
-                    string fileDelete = Path.Combine(RootToHome, fromVideoToExtension);
-                    File.Delete(fileDelete);
-                    Service.DeleteVideoName(correctName);
+                    if (check.Checked)
+                    {
+                        // För Loading bar. Hämtar scriptet från sitemaster vid klick på delete knappen och fortsätter igenom koden.
+                        string script = "$(document).ready(function () { $('[id*=MainContent_DeleteButton]').click(); });";
+                        ClientScript.RegisterStartupScript(this.GetType(), "load", script, true);
 
-                    MSG = "Innehåll har tagits bort korrekt.";
-                    delOccurs = true;
+                        string fromVideoToExtension = check.Attributes["special"];
+                        string correctName = fromVideoToExtension.Replace("Videos//", "");
+                        string RootToHome = Path.Combine(
+                     AppDomain.CurrentDomain.GetData("APPBASE").ToString(),
+                     "Videos/"
+                     );
+                        string fileDelete = Path.Combine(RootToHome, fromVideoToExtension);
+                        File.Delete(fileDelete);
+                        Service.DeleteVideoName(correctName);
+
+                        MSG = "Innehåll har tagits bort korrekt.";
+                        delOccurs = true;
+                    }
                 }
-            }
 
-         
 
-            if (delOccurs)
-            {
-                Response.RedirectToRoute("upload");
-            }
-            else
-            {
-                LabelStatus.Text = "Ingen fil vald för att ta bort.";
-                LabelStatus.CssClass = "fail";
 
+                if (delOccurs)
+                {
+                    Response.RedirectToRoute("upload");
+                }
+                else
+                {
+                    LabelStatus.Text = "Ingen fil vald för att ta bort.";
+                    LabelStatus.CssClass = "fail";
+
+                }
             }
         }
 
 
 
-
         /// <summary>
-        /// Metod för inhämtning av användarens videoklipp / Paging / Check Admin / 
+        /// Metod för inhämtning av användarens videoklipp / Paging / Check Admin / jämför user IDn
         /// </summary>
         /// <param name="maximumRows"></param>
         /// <param name="startRowIndex"></param>
@@ -299,31 +308,39 @@ namespace WebApplication2
         /// <returns> Paging info samt retunerar allt (IF Admin) eller användarens personliga videoklipp</returns>
         public IEnumerable<WebApplication2.Model.Video> VideoListView_GetData(int maximumRows, int startRowIndex, out int totalRowCount)
         {
-
-            var cacheinfo = ExtencionCashe.CasheInfo(Code);
-          
-          
-
-
-            Global AdminUser = new Global();
-            var MyAdmin = AdminUser.Admin;
-
-
-            if (cacheinfo.Id == MyAdmin)
+            UserInfo FbUserInfo = null;
+            if (Code != null)
             {
-                return Service.GetVideosPageWise(maximumRows, startRowIndex, out totalRowCount);
+                 FbUserInfo = ExtencionDataFetch.getdata(Code);
+
+                Global AdminUser = new Global();
+                var MyAdmin = AdminUser.Admin;
+
+
+                if (FbUserInfo.Id == MyAdmin)
+                {
+                    return Service.GetVideosPageWise(maximumRows, startRowIndex, out totalRowCount);
+                }
+                return Service.GetMyVideosPageWiseByID(maximumRows, startRowIndex, out totalRowCount, FbUserInfo.Id); ;
             }
 
 
 
-            return Service.GetMyVideosPageWiseByID(maximumRows, startRowIndex, out totalRowCount, cacheinfo.Id); ;
+
+
+            return Service.GetVideosPageWise(maximumRows, startRowIndex, out totalRowCount);
+
+
+            
         }
 
 
 
 
 
-        
+
+
+
 
 
 

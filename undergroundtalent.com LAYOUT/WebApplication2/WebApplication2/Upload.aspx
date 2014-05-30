@@ -8,9 +8,19 @@
      <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
      <div id="marginTitle">
     <h1>Ladda upp</h1></div><br />
-    <asp:Label ID="LabelStatus" text="" runat="server" />
 
-  <div id="info">
+
+
+    <asp:Label ID="Uploadbox" runat="server" Text="Label">
+        <div id="ddd"></div>
+         <div id="summary">
+     <asp:ValidationSummary ID="ValidationSummary" runat="server" CssClass="validation-summary-errors" />
+    </div>
+    <div id="boxback">
+       
+
+        <asp:Label ID="LabelStatus" text="" runat="server" />
+    <div id="info">
     <asp:Label ID="infoupload" runat="server" >
  
 <p>Innan du laddar upp en video, kontrollera att den inte överstiger:</p> <br / />
@@ -50,7 +60,7 @@
 
     <asp:Label ID="Label5" runat="server" >
     <div id="border"> 
-         <asp:Label ID="Label4" runat="server" >
+    <asp:Label ID="Label4" runat="server" >
  
 <p>För borttagning, markera <br/>en eller flera videoklipp <br/>och tryck på knappen nedan:</p> <br/>
   <br />
@@ -58,14 +68,22 @@
       </asp:Label>  <br />
     <asp:Button ID="DeleteButton" Text="Ta bort" runat="server" onclick="buttonDelete_Click" CausesValidation="false" /></div> </asp:Label>
 
-     <div id="labelloginfirst" >
-    <asp:Label ID="Label1" style="color: Red;"  runat="server" text="&nbsp;" ></asp:Label>
-   </div>
+     
     
      <asp:Label ID="StatusLogin" text="" runat="server" />
     <div id="success">
-    <asp:Label ID="Success" text="" runat="server" Visible="false" CssClass="success"/></div>
-    
+    <asp:Label ID="Success" text="" runat="server" Visible="false" CssClass="success"/>
+
+    </div>
+
+         </div>
+        </div>
+    </asp:Label>
+
+    <div id="labelloginfirst" >
+    <asp:Label ID="Label1" style="color: Red;"  runat="server" text="&nbsp;" ></asp:Label>
+   </div>
+
    <%--Infogning av loading bild för upload--%>
   <div class="loading" align="center">
    Laddar. Vänligen vänta.<br />
@@ -81,9 +99,7 @@
         <%--Validering--%>
     <asp:RegularExpressionValidator ID="FileUploadRegularExpressionValidator" runat="server" ErrorMessage="Filen måste vara av formaten avi, mp4, wmv, MOV, mpeg." ControlToValidate="Uploadfiles" Display="None" ValidationExpression=".*.(avi|mp4|wmv|MOV)"></asp:RegularExpressionValidator>
     <asp:RequiredFieldValidator ID="FileUploadRequiredFieldValidator" runat="server" ErrorMessage="Du måste välja minst en fil för uppladdning." Display="None" ControlToValidate="Uploadfiles"></asp:RequiredFieldValidator>
-   <div id="summary">
-     <asp:ValidationSummary ID="ValidationSummary" runat="server" CssClass="validation-summary-errors" />
-    </div>
+   
     <div id="positions"></div>
       <div id="Div1"></div>
 

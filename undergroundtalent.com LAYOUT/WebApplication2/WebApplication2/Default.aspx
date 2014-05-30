@@ -19,8 +19,8 @@
 
 
 
-      <%--Taget från css för video på startsidan från diapo--%>
-      <%--videoexempel--%>
+    
+      <%--videoexempel startsida Iframe från Youtube--%>
    
  
     

@@ -1,9 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EditVideo.aspx.cs" Inherits="WebApplication2.Pages.EditVideo" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <div id="marginTitle">
     <h1>Redigera</h1></div>
 
+    <div id="edittextlogin">
+    <asp:Label ID="Label1" runat="server" Text="Du Måste vara inloggad för att kunna redigera."></asp:Label>
+    </div>
+    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Klicka för att komma till startsidan</asp:LinkButton>
     
         <%-- Formview för videoklipp (hämtas via databas) --%>
      <asp:FormView ID="VideoEditFormView" runat="server"

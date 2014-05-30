@@ -15,17 +15,20 @@ namespace WebApplication2.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LinkButton1.Visible = false;
+            Label1.Visible = false;
 
             if (Code == null) {
 
                 VideoEditFormView.Visible = false;
+                Label1.Visible = true;
+                LinkButton1.Visible = true;
             
             
             }
 
 
-
+            
 
 
         }
@@ -71,71 +74,90 @@ namespace WebApplication2.Pages
         // The id parameter name should match the DataKeyNames value set on the control
         public void VideoEditFormView_UpdateItem(Video video)
         {
-            try
+            if (Code != null)
             {
 
-                var KategoriID = 0;
-                DropDownList Dropdown = (DropDownList)VideoEditFormView.FindControl("DropDownCategory");
-
-                foreach (ListItem bm in Dropdown.Items)
+                try
                 {
-                    if (bm.Selected)
+
+                    var KategoriID = 0;
+                    DropDownList Dropdown = (DropDownList)VideoEditFormView.FindControl("DropDownCategory");
+
+                    foreach (ListItem bm in Dropdown.Items)
                     {
-                        KategoriID = int.Parse(bm.Value);
+                        if (bm.Selected)
+                        {
+                            KategoriID = int.Parse(bm.Value);
+
+                        }
+                    }
+
+
+
+                    if (video == null)
+                    {
+                        // The item wasn't found
+                        ModelState.AddModelError("", String.Format("Videon med id {0} hittades ej", video.VideoID));
+                        return;
+                    }
+
+
+
+                    TryUpdateModel(video);
+                    if (ModelState.IsValid)
+                    {
+
+                        Service.UpdateTitle(video.Titel, video.VideoID, KategoriID);
+                        MSG = "Videon är uppdaterad.";
+                        Response.RedirectToRoute("upload");
+                        Context.ApplicationInstance.CompleteRequest();
 
                     }
-                }
 
-
-
-                if (video == null)
-                {
-                    // The item wasn't found
-                    ModelState.AddModelError("", String.Format("Videon med id {0} hittades ej", video.VideoID));
-                    return;
-                }
-
-
-
-                TryUpdateModel(video);
-                if (ModelState.IsValid)
-                {
-
-                    Service.UpdateTitle(video.Titel, video.VideoID, KategoriID);
-                    MSG = "Videon är uppdaterad.";
-                    Response.RedirectToRoute("upload");
-                    Context.ApplicationInstance.CompleteRequest();
 
                 }
-
+                catch { ModelState.AddModelError(String.Empty, "Fel inträffade då Titeln skulle uppdateras. Titel måste anges."); }
 
             }
-            catch { ModelState.AddModelError(String.Empty, "Fel inträffade då Titeln skulle uppdateras. Titel måste anges."); }
-
         }
 
 
         public WebApplication2.Model.Video VideoEditFormView_GetItem([RouteData] int id)
         {
-            var data=  Service.GetVideoDataByID(id);
-             Global AdminUser = new Global();
-            var MyAdmin = AdminUser.Admin;
-
-            //Hämtar User info. 
-            var cacheinfo = ExtencionCashe.CasheInfo(Code);
-
-            if (cacheinfo.Id == MyAdmin)
+            if (Code != null)
             {
+
+                var data = Service.GetVideoDataByID(id);
+                Global AdminUser = new Global();
+                var MyAdmin = AdminUser.Admin;
+
+                //Hämtar User info (UserID som används för jämförelse). 
+                var FbUserInfo = ExtencionDataFetch.getdata(Code);
+
+                if (FbUserInfo.Id == MyAdmin)
+                {
+                    return data;
+
+                }
+
+                if (FbUserInfo.Id != data.UserID)
+                {
+                    return null;
+                }
+
+
+
                 return data;
-            
             }
 
-            if (cacheinfo.Id != data.UserID)
-            {
-                return null;
-            }
+            return null;
 
-            return data;
+
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.RedirectToRoute("startsida");
         }
 
     }

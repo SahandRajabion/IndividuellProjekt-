@@ -38,38 +38,37 @@ namespace WebApplication2
         }
  
 
-        //Accestoken egenskap (facebook) / Hämtar access token
-        private static string code;
+        //Sparar accestoken i Session / åtkomst från alla sidor
 
+          
         public string Code
         {
-
-            get { return code; }
+            get
+            {
+                return Session["code"] as string;
+            }
+            set
+            {
+                Session["code"] = value;
+            }
         }
 
 
-        /// <summary>
-        /// Sparar accestoken i Session / åtkomst från alla sidor
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        /// 
+
+       
 
         private void Page_Init(object sender, EventArgs e)
         {
 
-         // Om access token = null, requestar efter den och lagrar i session.
-            if (code == null)
+         // Lagring av access-token i session så att användaren fortfarande ska vara inloggad när de navigerar mellan olika sidor.
+            if (Code == null)
             {
 
-                code = Request.QueryString["code"];
-                //Sparar accesstoken i Session (by default 20min).
-                HttpContext.Current.Session["code"] = code;
+                Code = Request.QueryString["code"];
 
 
-
-                //Efter att användaren loggat in och access token hämtats utför följande (url visas nu utan access-token):
-                if (code != null)
+                //Efter att användaren loggat in och access token hämtats utförs följande (url visas nu utan access-token):
+                if (Code != null)
                 {
                     // Taget från StackOverflow.
                     // Delar upp Urlen, och tar bort access token från urlen(krashar annars när man backar med historik knappen i webbläsaren då access token inte 
@@ -80,32 +79,15 @@ namespace WebApplication2
                     queryString.Remove("code");
                     url = separateURL[0] + queryString.ToString();
                     Response.Redirect(url);
+                    
+                   
                 
-
-
                 }
                 
-             
-
-                //Nedanstående äldre version som jag testat innan som fungerar, men sparar "code" i Viewstate.
-                //Page.ViewStateUserKey = code;
-
-
-
-            }
-
-             //I annat fall hämtar direkt från session och anropas sedan nedanstående metod.
-            else
-            {   //Sparar accesstoken i Session (by default 20min), finns access token i session kvar inom 20min om användaren kommer tillbaka hämtas den här.
-                HttpContext.Current.Session["code"] = code;
-
-                //Nedanstående äldre version som jag testat innan som fungerar, men sparar "code" i Viewstate.
-                //Page.ViewStateUserKey = code;
             }
 
             Page.PreLoad += master_Page_PreLoad;
 
-    
          }
 
 
@@ -117,18 +99,17 @@ namespace WebApplication2
         /// 
 
         //Tagit delvis kod från ASPsnippet och facebook Developer och redigerat koden utefter min applikation och den info som jag 
-        //vill komma åt om användaren via facebook och sedan Cashat den själv och även sparat accesstoken i session.
+        //vill komma åt om användaren via facebook.
         protected void master_Page_PreLoad(object sender, EventArgs e)
         {
 
                 AuthConfig.RegisterOpenAuth();
 
                 
+                    //Ifall användaren är utloggad, tömmer accesstoken från session
                     if (Request.QueryString["logout"] == "true")
                     {
-                        //Rensar chasheinfo från Casheminnet vid utloggning av användare.
-                        HttpContext.Current.Cache.Remove("fbData");
-                        code = null;
+                        Code = null;
                         
                         return;   
                     }
@@ -137,17 +118,17 @@ namespace WebApplication2
 
             
                     //Ifall access token finns tilgängligt(aktivt): hämta in data om user via facebook.
-                    if (!string.IsNullOrEmpty(code))
+                    if (!string.IsNullOrEmpty(Code))
                     {
-                        //Anropar ChacheInfo metoden och inhämtat userdata från Chache minnet för vidare användning i Extencion klassen.
-                        var fbUSER = ExtencionCashe.CasheInfo(code);
+                        //Anropar getdata metoden och inhämtar userdata från extencion klassen för inhämtning av användaruppgifter om användare är inloggad.
+                        var fbUSER = ExtencionDataFetch.getdata(Code);
                         fbUSER.PictureUrl = string.Format("https://graph.facebook.com/{0}/picture", fbUSER.Id);
                         pnlFaceBookUser.Visible = true;
                         lblName.Text = fbUSER.Name;
                         ProfileImage.ImageUrl = fbUSER.PictureUrl;
 
-                        // Förändring av log in knappar i olika lägen (ut-inloggad).
-                        if (code == null)
+                        // Förändring av login knappar i olika lägen (ut-inloggad).
+                        if (Code == null)
                         {
                             btnLogin.Visible = true;
                         }
@@ -163,7 +144,7 @@ namespace WebApplication2
 
                         if (returnedid != fbUSER.Id)
                         {
-                            Service.InsertFaceBook(code, fbUSER.Id, fbUSER.Name);
+                            Service.InsertFaceBook(Code, fbUSER.Id, fbUSER.Name);
                         }
 
                     }
@@ -199,9 +180,7 @@ namespace WebApplication2
         /// <param name="e"></param>
         protected void Logout(object sender, EventArgs e)
         {
-            code = null;
-           
-            FaceBookConnect.Logout(code);
+            FaceBookConnect.Logout(Code);
 
         
            
