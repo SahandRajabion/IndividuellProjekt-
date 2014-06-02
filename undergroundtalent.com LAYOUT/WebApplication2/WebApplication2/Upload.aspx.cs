@@ -141,11 +141,8 @@ namespace WebApplication2
 
                                 if
 
-                                ((Uploadfiles.PostedFile.ContentType == "video/avi") ||
-                                     (Uploadfiles.PostedFile.ContentType == "video/mp4") ||
-                                    (Uploadfiles.PostedFile.ContentType == "video/wmv") ||
-                                     (Uploadfiles.PostedFile.ContentType == "video/MOV") ||
-                                     (Uploadfiles.PostedFile.ContentType == "video/mpeg"))
+                                ((Uploadfiles.PostedFile.ContentType == "video/mp4"))
+                                    
                                 {
                                     if (Convert.ToInt64(Uploadfiles.PostedFile.ContentLength) < 26214400)
                                     {
@@ -276,7 +273,7 @@ namespace WebApplication2
                         string fileDelete = Path.Combine(RootToHome, fromVideoToExtension);
                         File.Delete(fileDelete);
                         Service.DeleteVideoName(correctName);
-
+                        Success.Visible = true;
                         MSG = "Innehåll har tagits bort korrekt.";
                         delOccurs = true;
                     }
@@ -290,6 +287,7 @@ namespace WebApplication2
                 }
                 else
                 {
+                    LabelStatus.Visible = true;
                     LabelStatus.Text = "Ingen fil vald för att ta bort.";
                     LabelStatus.CssClass = "fail";
 

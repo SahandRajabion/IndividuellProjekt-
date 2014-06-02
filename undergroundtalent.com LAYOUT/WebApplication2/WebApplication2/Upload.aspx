@@ -22,7 +22,7 @@
     <div id="boxback">
        
 
-        <asp:Label ID="LabelStatus" text="" runat="server" />
+        <asp:Label ID="LabelStatus" text="" visible="false" runat="server" />
     <div id="info">
     <asp:Label ID="infoupload" runat="server" >
  
@@ -101,7 +101,7 @@
                   
 
         <%--Validering--%>
-    <asp:RegularExpressionValidator ID="FileUploadRegularExpressionValidator" runat="server" ErrorMessage="Filen måste vara av formaten avi, mp4, wmv, MOV, mpeg." ControlToValidate="Uploadfiles" Display="None" ValidationExpression=".*.(avi|mp4|wmv|MOV)"></asp:RegularExpressionValidator>
+    <asp:RegularExpressionValidator ID="FileUploadRegularExpressionValidator" runat="server" ErrorMessage="Filen måste vara av formatet mp4." ControlToValidate="Uploadfiles" Display="None" ValidationExpression=".*.(avi|mp4|wmv|MOV)"></asp:RegularExpressionValidator>
     <asp:RequiredFieldValidator ID="FileUploadRequiredFieldValidator" runat="server" ErrorMessage="Du måste välja minst en fil för uppladdning." Display="None" ControlToValidate="Uploadfiles"></asp:RequiredFieldValidator>
    
     <div id="positions"></div>
@@ -122,7 +122,7 @@
                     </table>
                  <div id="clear" style="clear: both;" >
                           <%--Datapager för Paging av innehåll på sidan--%>
-                    <asp:DataPager ID="DataPager" runat="server" PageSize="9">
+                    <asp:DataPager ID="DataPager" runat="server" PageSize="6">
                         <Fields>
                             
                           <asp:NextPreviousPagerField ShowFirstPageButton="False" FirstPageText=" Första " ShowNextPageButton="False" ShowPreviousPageButton="True" ButtonType="Button"  PreviousPageText="Föregående"/>

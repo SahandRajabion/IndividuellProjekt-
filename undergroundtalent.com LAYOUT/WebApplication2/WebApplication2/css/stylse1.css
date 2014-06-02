@@ -20,28 +20,37 @@ border-top-right-radius: 34px;
 #navigation {
 width: 1202px;
 
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #boxback {
 height: 265px;
 
 /*Färg taget från ColorZilla.com*/
-background: #feffe8; /* Old browsers */
-background: -moz-linear-gradient(top, #feffe8 0%, #d6dbbf 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffe8), color-stop(100%,#d6dbbf)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #feffe8 0%,#d6dbbf 100%); /* IE10+ */
-background: linear-gradient(to bottom, #feffe8 0%,#d6dbbf 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
-
-
+height: 265px;
+background: #818181;
+background: -moz-linear-gradient(top, #FFFFFF 0%, #A1A398 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#A1A398));
+background: -webkit-linear-gradient(top, #FFFFFF 0%,#A1A398 100%);
+background: -o-linear-gradient(top, #FFFFFF 0%,#A1A398 100%);
+background: -ms-linear-gradient(top, #FFFFFF 0%,#A1A398 100%);
+background: linear-gradient(to bottom, #FFFFFF 0%,#A1A398 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#A1A398',GradientType=0 );
 padding: 5px;
 padding-top: 49px;
 width: 1191px;
-margin-top: -660px;
+margin-top: -554px;
 border: 1px solid #000;
 border-radius: 3px;
 }
@@ -271,12 +280,20 @@ input[type="checkbox"].input-validation-error {
     border: 0 none;
 }
 
+
+
 .validation-summary-errors {
-   color: #e80c4d;
+color: #161616;
 font-weight: bold;
 font-size: 1.1em;
-margin-top: -647px;
+margin-top: -640px;
+margin-left: -88%;
+margin-right: 88%;
 padding-bottom: 477px;
+background-color: rgb(255, 235, 232);
+border: 1px solid rgb(221, 60, 16);
+padding: 9px 10px 10px 29px;
+border-radius: 3px 3px 3px 3px;
 }
 
 .validation-summary-valid {
@@ -656,12 +673,12 @@ margin-right: -7px;
 }
 
 .fail {
-    color: red;
+    color: black;
     font-weight: bold;
 }
 
 .success {
-    color: green;
+    color: black;
     font-weight: bold;
 }
 
@@ -963,7 +980,13 @@ background-color: #0FCC0F;
 }
 
 
-#titelposition {margin-left: 23px; font-family: fantasy;
+#titelposition {margin-left: 23px;
+font-family: cursive;
+background: rgb(255, 230, 213);
+border: 1px solid black;
+border-radius: 3px;
+width: 333px;
+text-align: center;
              
 }
 
@@ -971,7 +994,7 @@ background-color: #0FCC0F;
 margin-top: 27px;
 font-family: 'Oswald', sans-serif;
 text-align: center;
-font-size:-webkit-xxx-large;
+font-size: 40px;
 
 }
 
@@ -980,7 +1003,7 @@ margin-bottom: 202px;
 margin-top: -82px;
 font-family: 'Oswald', sans-serif;
 text-align: center;
-font-size: -webkit-xxx-large;
+font-size: 48px;
 }
 
 
@@ -1089,6 +1112,12 @@ font-weight: 900;
 }
 
 
+span#MainContent_Label1 {
+background-color: red;
+color: white;
+}
+
+
 div#tillbaka {
 padding: 2px 20px;
 text-decoration: none;
@@ -1103,11 +1132,11 @@ margin-bottom: 10px;
 
 #border {width: 280px;
 height: 100px;
-border: solid black 3px;
+border: solid black 1px;
 margin-left: 818px;
-
 margin-top: -166px;
 padding-bottom: 63px;
+background: rgba(120, 120, 128, 0.54);
          
 }
 
@@ -1162,7 +1191,7 @@ a {text-decoration:none;
 margin-top: 141px;
 font-family: 'Oswald', sans-serif;
 text-align: center;
-font-size: -webkit-xxx-large;
+font-size: 48px;
 }
 
 
@@ -1179,12 +1208,14 @@ margin-left: 465px;
 
 
 #HyperLink1 img {
-width: 343px;
-height: 353px;
-margin-left: -3px;
+width: 322px;
+height: 303px;
+margin-left: 17px;
 border-top-left-radius: 34px;
 border-top-right-radius: 34px;
 border-bottom-right-radius: 34px;
+margin-top: 24px;
+border-bottom-left-radius: 34px;
 
 }
 
@@ -1215,12 +1246,12 @@ span#MainContent_Label4 {
 font-family: monospace;
 font-weight: 900;
 font-size: 17px;
-color: rgb(255, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 div#summary {
-margin-left: 483px;
-margin-top: 146px;
+margin-left: 769px;
+margin-top: 78px;
 padding-top: 406px;
 }
 
@@ -1233,12 +1264,19 @@ margin-top: 760px;
 
 div#success {
 margin-top: -211px;
-margin-left: 466px;
-padding-bottom: 226px;
+background-color: rgb(147, 255, 151);
+border-radius: 3px 3px 3px 3px;
+text-align: center;
 }
 
 span#MainContent_LabelStatus {
-margin-left: 483px;
+
+background-color: rgb(255, 86, 86);
+border-radius: 3px 3px 3px 3px;
+text-align: center;
+padding-left: 495px;
+padding-right: 495px;
+
 }
 
 
