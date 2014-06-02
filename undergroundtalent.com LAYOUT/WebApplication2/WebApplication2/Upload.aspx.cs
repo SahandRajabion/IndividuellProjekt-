@@ -97,7 +97,7 @@ namespace WebApplication2
 
             if (Code == null)
             {
-
+                Label1.Visible = true;
                 Label1.Text = "Du måste Logga in för att kunna se ditt innehåll / Ladda upp";
                 DeleteButton.Visible = false;
                 UploadButton.Visible = false;

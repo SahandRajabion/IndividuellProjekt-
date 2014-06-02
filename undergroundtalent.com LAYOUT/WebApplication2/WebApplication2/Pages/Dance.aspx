@@ -34,7 +34,9 @@
                       <div id="titelposition">
             <asp:Label ID="Label2" runat="server" Text="<%# Item.Titel %>"></asp:Label>
                           </div>
+                      
             <a class="player"  href='<%#"../Videos/" + Item.VidName %>'></a>
+                        
         
             <%--Popup Ruta--%>
             <asp:LinkButton ID="LinkButton1" runat="server" OnCommand="LinkButton1_Command" CssClass="buttonClass"  Text="Klicka för att Kommentera"></asp:LinkButton>
@@ -53,6 +55,7 @@
                 </div>
             </div>
           </asp:Label>
+                          
 
                     </span>
                 </ItemTemplate>

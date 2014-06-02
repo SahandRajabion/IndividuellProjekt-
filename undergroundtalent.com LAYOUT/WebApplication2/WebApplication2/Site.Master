@@ -19,9 +19,8 @@
 </head>
     <%--onkeydown taget från aspsnippet--%>
 <body onkeydown = "return (event.keyCode!=13)">
-    <div id="wrapper">
+    <div id="wrapper">                                      
     <form runat="server">
-
 
         <div id="header">
           
@@ -60,7 +59,7 @@
      
 		</div>
         </div>
-           
+
 
   <div id="navigation"> 
   
@@ -89,10 +88,10 @@
        </div>
 			
 
-       
+
 
   <div id="content"> 
-      
+
         <%-- Innehåll --%>
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
         <section class="content-wrapper main-content clear-fix">
@@ -112,12 +111,6 @@
         <%--  </div>--%>
   </div>
    
-
-    
-        
-    
-      
-
 
      <%-- Taget från facebookDeveloper--%>
     <script>(function (d, s, id) {

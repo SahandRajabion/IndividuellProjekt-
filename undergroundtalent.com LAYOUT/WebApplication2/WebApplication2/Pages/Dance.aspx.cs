@@ -25,7 +25,7 @@ namespace WebApplication2.Pages
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
@@ -56,6 +56,7 @@ namespace WebApplication2.Pages
             Label lblStatus = (Label)item.FindControl("Label1");
             lblStatus.Visible = true;
 
+            
         }
 
         protected void ImageButton1_Command(object sender, CommandEventArgs e)

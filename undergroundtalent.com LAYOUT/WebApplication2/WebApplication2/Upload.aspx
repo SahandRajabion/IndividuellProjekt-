@@ -6,6 +6,9 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
      <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    
+
+
      <div id="marginTitle">
     <h1>Ladda upp</h1></div><br />
 
@@ -40,7 +43,8 @@
 
     
         <asp:Label ID="title" runat="server" Text="Ange Titel:"></asp:Label>
-        <asp:TextBox ID="Titel" runat="server" Text='' MaxLength="30" />
+        <asp:TextBox ID="Titel" runat="server" Text='' MaxLength="30"></asp:TextBox>
+      
     <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ErrorMessage="En Titel måste anges." ControlToValidate="Titel" Display="None" ></asp:RequiredFieldValidator> <br />
          
     
@@ -81,7 +85,7 @@
     </asp:Label>
 
     <div id="labelloginfirst" >
-    <asp:Label ID="Label1" style="color: Red;"  runat="server" text="&nbsp;" ></asp:Label>
+    <asp:Label ID="Label1" style="color: white;" visible="false" runat="server" text="&nbsp;" ></asp:Label>
    </div>
 
    <%--Infogning av loading bild för upload--%>
