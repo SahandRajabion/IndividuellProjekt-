@@ -46,12 +46,12 @@
                 <asp:ImageButton ID="ImageButton1" runat="server"  ImageUrl="../css/images1/cancel.png" OnCommand="ImageButton1_Command" CssClass="cancel"/>
                 <div id="buttonsfb">
                  <div class="fb-like" data-href='http://facebook.com/<%# Item.VidName %>' data-layout="standard" data-action="like" data-show-faces="true" layout="button_count"></div>
-                <div class="fb-share-button" data-href="http://localhost:3116/<%# Item.VidName %>" data-type="button"></div>
+                <div class="fb-share-button" data-href="http://sahand11-001-site1.smarterasp.net/<%# Item.VidName %>" data-type="button"></div>
                 </div>
                <a class="player"  href='<%#"../Videos/" + Item.VidName %>'></a>
 
                 <div class="popCom">
-              <div class="fb-comments" data-href="http://localhost:3116/comments/<%# Item.VidName %>" data-numposts="1" data-colorscheme="dark" data-width="400px" style="color: white"></div>
+              <div class="fb-comments" data-href="http://sahand11-001-site1.smarterasp.net/Videos/<%# Item.VidName %>" data-numposts="1" data-colorscheme="dark" data-width="400px" style="color: white"></div>
 
                 </div>
             </div>

@@ -673,7 +673,7 @@ margin-right: -7px;
 }
 
 .fail {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -1118,6 +1118,13 @@ color: white;
 }
 
 
+article p {
+margin-left: 411px;
+margin-top: 32px;
+text-align: center;
+}
+
+
 div#tillbaka {
 padding: 2px 20px;
 text-decoration: none;
@@ -1136,7 +1143,8 @@ border: solid black 1px;
 margin-left: 818px;
 margin-top: -166px;
 padding-bottom: 63px;
-background: rgba(120, 120, 128, 0.54);
+background: linear-gradient(to bottom, #FFFFFF 0%,#6B6B6B 100%);
+border-radius: 10px;
          
 }
 
@@ -1240,6 +1248,7 @@ margin-bottom: 54px;
 
 a#MainContent_VideoEditFormView_UpdateButton {
 margin-left: 513px;
+
 }
 
 span#MainContent_Label4 {
@@ -1263,10 +1272,14 @@ margin-top: 760px;
 }
 
 div#success {
-margin-top: -211px;
+margin-top: -230px;
 background-color: rgb(147, 255, 151);
 border-radius: 3px 3px 3px 3px;
 text-align: center;
+padding-left: 40%;
+margin-left: 2.3%;
+padding-right: 38%;
+margin-right: 27px;
 }
 
 span#MainContent_LabelStatus {
@@ -1274,8 +1287,9 @@ span#MainContent_LabelStatus {
 background-color: rgb(255, 86, 86);
 border-radius: 3px 3px 3px 3px;
 text-align: center;
-padding-left: 495px;
-padding-right: 495px;
+padding-left: 40%;
+margin-left: 2.3%;
+padding-right: 38%;
 
 }
 
