@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D99CCD32-630E-4998-BBE3-273245DADFCE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>C:\Users\sr222hn\Desktop\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPSnippets.FaceBookAPI">
+      <HintPath>E:\FB\FB\bin\ASPSnippets.FaceBookAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook">
+      <HintPath>E:\FB\FB\bin\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="FB">
+      <HintPath>E:\FB\FB\bin\FB.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>E:\FB\FB\bin\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.8.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.UI.Combined.1.8.24\lib\net45\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.4.5.6\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.4.5.6\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Membership.OpenAuth.1.0.1\lib\net45\Microsoft.AspNet.Membership.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.0.0\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.0\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSnip">
+      <HintPath>E:\FB\FB\bin\WebSnip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bg .png" />
+    <Content Include="Content\pics\loggain.png" />
+    <Content Include="Content\pics\loggaut.png" />
+    <Content Include="css\images1\112.jpg" />
+    <Content Include="css\images1\140140678294137 %281%29.gif" />
+    <Content Include="css\images1\aaa.png" />
+    <Content Include="css\images1\ASP_SCS_VMC_160x600_BnnrAd.gif" />
+    <Content Include="css\images1\backgroun.png" />
+    <Content Include="css\images1\bb.jpg" />
+    <Content Include="css\images1\bbb.jpg" />
+    <Content Include="css\images1\Black-and-White-City-Landscape-Wallpape.jpg" />
+    <Content Include="css\images1\Black-and-White-City-Landscape-Wallpaper %281%29.jpg" />
+    <Content Include="css\images1\Black-and-White-City-Landscape-Wallpaper.jpg" />
+    <Content Include="css\images1\Black-and-White-New-York-City-Wallpaper.jpg" />
+    <Content Include="css\images1\black-background-with-pink-flowers-header.jpg" />
+    <Content Include="css\images1\broken-piano-keys1.jpg" />
+    <Content Include="css\images1\cancel.png" />
+    <Content Include="css\images1\Chicago-Black-and-White-Wallpaper-HD.jpg" />
+    <Content Include="css\images1\email.png" />
+    <Content Include="css\images1\error.jpg" />
+    <Content Include="css\images1\ezgif-save.gif" />
+    <Content Include="css\images1\ff.jpg" />
+    <Content Include="css\images1\fff.jpg" />
+    <Content Include="css\images1\footer.png" />
+    <Content Include="css\images1\fråga.png" />
+    <Content Include="css\images1\gg.jpg" />
+    <Content Include="css\images1\GraphicStorev.png" />
+    <Content Include="css\images1\header.png" />
+    <Content Include="css\images1\header4.png" />
+    <Content Include="css\images1\headertext.png" />
+    <Content Include="css\images1\hejhej.jpg" />
+    <Content Include="css\images1\hypercube.gif" />
+    <Content Include="css\images1\jjj.png" />
+    <Content Include="css\images1\Loading.gif" />
+    <Content Include="css\images1\loading_bar.gif" />
+    <Content Include="css\images1\loggain.png" />
+    <Content Include="css\images1\loggaut.png" />
+    <Content Include="css\images1\logophotoshop.png" />
+    <Content Include="css\images1\logophotoshop1.png" />
+    <Content Include="css\images1\mic.png" />
+    <Content Include="css\images1\micc.png" />
+    <Content Include="css\images1\new-york-black-and-white-skyline-photography-black-and-white-new-york-city-wallpaper-high-definition.jpg" />
+    <Content Include="css\images1\old.png" />
+    <Content Include="css\images1\phone.png" />
+    <Content Include="css\images1\photoshop.jpg" />
+    <Content Include="css\images1\photoshop.png" />
+    <Content Include="css\images1\photoshop1.png" />
+    <Content Include="css\images1\photoshopbackground.jpg" />
+    <Content Include="css\images1\photoshopbackground.png" />
+    <Content Include="css\images1\photoshopbackground1.png" />
+    <Content Include="css\images1\PhotoshopLOGO.png" />
+    <Content Include="css\images1\pianook.jpg" />
+    <Content Include="css\images1\pianophotoshop.png" />
+    <Content Include="css\images1\piano_00411389.jpg" />
+    <Content Include="css\images1\pin.png" />
+    <Content Include="css\images1\qq.png" />
+    <Content Include="css\images1\sasa.png" />
+    <Content Include="css\images1\swag.jpg" />
+    <Content Include="css\images1\Top-View-Of-Black-&amp;-White-City.jpg" />
+    <Content Include="css\images1\tt.png" />
+    <Content Include="css\images1\underground.png" />
+    <Content Include="css\images1\vv.jpg" />
+    <Content Include="css\images1\wall.jpg" />
+    <Content Include="css\images1\xx.jpg" />
+    <Content Include="css\stylse1.css" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Pages\About.aspx" />
+    <Content Include="Pages\Beatbox.aspx" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="Content\pics\facebook-logout.gif" />
+    <Content Include="Content\pics\Log in.png" />
+    <Content Include="Content\Site1.css" />
+    <Content Include="css\images1\bg.jpg" />
+    <Content Include="css\images1\1.jpg" />
+    <Content Include="css\images1\2.jpg" />
+    <Content Include="css\images1\3.jpg" />
+    <Content Include="css\images1\4.jpg" />
+    <Content Include="css\images1\5.jpg" />
+    <Content Include="css\images1\6.jpg" />
+    <Content Include="css\images1\overlay1.png" />
+    <Content Include="css\Sty.css" />
+    <Content Include="FlowPlayer\flowplayer-3.2.12.min.js" />
+    <Content Include="FlowPlayer\flowplayer-3.2.16.swf" />
+    <Content Include="FlowPlayer\flowplayer.controls-3.2.15.swf" />
+    <Content Include="FlowPlayer\flowplayer.pseudostreaming-3.2.12.swf" />
+    <Content Include="images1\demo\arrow_caption.png" />
+    <Content Include="images1\demo\list-check-green.png" />
+    <Content Include="images1\demo\list-error.png" />
+    <Content Include="images1\diapo\next.png" />
+    <Content Include="images1\diapo\pause.png" />
+    <Content Include="images1\diapo\play.png" />
+    <Content Include="images1\diapo\prev.png" />
+    <Content Include="images1\slides\briz.png" />
+    <Content Include="images1\slides\dahlia.png" />
+    <Content Include="images1\slides\electro.png" />
+    <Content Include="images1\slides\guitar.png" />
+    <Content Include="images1\slides\inception.png" />
+    <Content Include="images1\slides\spose.png" />
+    <Content Include="images1\slides\_notes\dwsync.xml" />
+    <Content Include="images1\thumbs\briz.png" />
+    <Content Include="images1\thumbs\dahlia.png" />
+    <Content Include="images1\thumbs\electro.png" />
+    <Content Include="images1\thumbs\guitar.png" />
+    <Content Include="images1\thumbs\inception.png" />
+    <Content Include="images1\thumbs\spose.png" />
+    <Content Include="images1\thumbs\_notes\dwsync.xml" />
+    <Content Include="images1\_notes\dwsync.xml" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="jquery.easing.1.3.js" />
+    <Content Include="Pages\Dance.aspx" />
+    <Content Include="Pages\EditVideo.aspx" />
+    <Content Include="Pages\Music.aspx" />
+    <Content Include="Pages\Other.aspx" />
+    <Content Include="Pages\Talent.aspx" />
+    <Content Include="scripts1\diapo.js" />
+    <Content Include="scripts1\diapo.min.js" />
+    <Content Include="scripts1\jquery.easing.1.3.js" />
+    <Content Include="scripts1\jquery.hoverIntent.minified.js" />
+    <Content Include="scripts1\jquery.min.js" />
+    <Content Include="scripts1\jquery.mobile-1.0rc2.customized.min.js" />
+    <Content Include="scripts1\_notes\dwsync.xml" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Upload.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="images1\.DS_Store" />
+    <Content Include="images1\slides\.DS_Store" />
+    <Content Include="images1\thumbs\.DS_Store" />
+    <Content Include="scripts1\.DS_Store" />
+    <None Include="Properties\PublishProfiles\undergroundtalent.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Extencion\ExtencionDataGet.cs" />
+    <Compile Include="Pages\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="Pages\Beatbox.aspx.cs">
+      <DependentUpon>Beatbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Beatbox.aspx.designer.cs">
+      <DependentUpon>Beatbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\DAL\CategoryDAL.cs" />
+    <Compile Include="Model\DAL\DALBase.cs" />
+    <Compile Include="Model\DAL\FBDAL.cs" />
+    <Compile Include="Model\DAL\VideoDAL.cs" />
+    <Compile Include="Model\Service.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Model\Video.cs" />
+    <Compile Include="Pages\Dance.aspx.cs">
+      <DependentUpon>Dance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dance.aspx.designer.cs">
+      <DependentUpon>Dance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditVideo.aspx.cs">
+      <DependentUpon>EditVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditVideo.aspx.designer.cs">
+      <DependentUpon>EditVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Music.aspx.cs">
+      <DependentUpon>Music.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Music.aspx.designer.cs">
+      <DependentUpon>Music.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other.aspx.cs">
+      <DependentUpon>Other.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other.aspx.designer.cs">
+      <DependentUpon>Other.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Talent.aspx.cs">
+      <DependentUpon>Talent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Talent.aspx.designer.cs">
+      <DependentUpon>Talent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3116/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
